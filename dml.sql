@@ -47,16 +47,16 @@ INSERT INTO lagu (id_lagu, id_album, id_genre, judul, durasi) VALUES
 (10, 10, 9, 'Starboy', '00:03:51');
 
 INSERT INTO pengguna (id_pengguna, nama, email, tanggal_lahir) VALUES
-(1, 'John Doe', 'johndoe@example.com', '1990-05-15'),
-(2, 'Jane Smith', 'janesmith@example.com', '1992-09-28'),
-(3, 'Michael Johnson', 'michaeljohnson@example.com', '1988-07-12'),
-(4, 'Emily Davis', 'emilydavis@example.com', '1995-02-04'),
-(5, 'Daniel Wilson', 'danielwilson@example.com', '1991-11-19'),
-(6, 'Olivia Anderson', 'oliviaanderson@example.com', '1989-03-22'),
-(7, 'William Taylor', 'williamtaylor@example.com', '1993-08-06'),
-(8, 'Sophia Clark', 'sophiaclark@example.com', '1994-12-09'),
-(9, 'Matthew Lewis', 'matthewlewis@example.com', '1996-06-30'),
-(10, 'Isabella Martinez', 'isabellamartinez@example.com', '1997-04-17');
+(1, 'Adelia Salsabila', 'L200210001@student.ums.ac.id', '2002-08-27'),
+(2, 'Irvan Febriansyah', 'L200210003@student.ums.ac.id', '2002-02-10'),
+(3, 'Reyhan Reva Satria', 'L200210004@student.ums.ac.id', '2002-08-27'),
+(4, 'Hafizh Fathurrosy', 'L200210005@student.ums.ac.id', '2002-07-26'),
+(5, 'Naufal Rafid Ardanu', 'L200210008@student.ums.ac.id', '2003-04-25'),
+(6, 'Muhammad Alfin', 'L200210009@student.ums.ac.id', '2001-08-03'),
+(7, 'Fajri Diannita Sari', 'L200210010@student.ums.ac.id', '2003-01-24'),
+(8, 'Faza Yoga Ardana', 'L200210011@student.ums.ac.id', '2002-07-17'),
+(9, 'Aldhyno Yoghatama', 'L200210014@student.ums.ac.id', '2002-10-27'),
+(10, 'Muhammad Irfan Zahran', 'L200210016@student.ums.ac.id', '2003-07-04');
 
 INSERT INTO playlist (id_playlist, id_pengguna, judul, tanggal_dibuat) VALUES
 (1, 1, 'My Favorites', '2022-01-10'),
