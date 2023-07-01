@@ -69,3 +69,16 @@ INSERT INTO playlist (id_playlist, id_pengguna, judul, tanggal_dibuat) VALUES
 (8, 8, 'Feel Good Tunes', '2023-03-28'),
 (9, 9, 'Country Classics', '2021-12-18'),
 (10, 10, 'Late Night Jams', '2022-08-09');
+
+INSERT INTO lagu_pengguna (id_lagu_pengguna, id_lagu, id_pengguna) VALUES
+(1, 1, 1),
+(2, 3, 1),
+(3, 5, 2),
+(4, 7, 3),
+(5, 8, 3),
+(6, 10, 4),
+(7, 2, 5),
+(8, 4, 6),
+(9, 6, 7),
+(10, 9, 8);
+
